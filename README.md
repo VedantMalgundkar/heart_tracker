@@ -2,6 +2,58 @@
 
 This document provides detailed information about the API routes available in the application. Each route is described with its purpose, request format, and example responses.
 
+
+
+# Setup Instructions
+
+1. Clone the Repository
+Clone the repository to your local machine:
+```
+git clone https://github.com/VedantMalgundkar/heart_tracker.git
+cd heart_tracker
+```
+
+2. Set Up a Virtual Environment
+
+    Create and activate a virtual environment:
+
+    On macOS/Linux:
+```
+  python3 -m venv venv
+```
+
+3. Install Dependencies
+
+    Install the required Python packages from requirements.txt:
+
+```
+pip install -r requirements.txt
+```
+
+4. Set Up Environment Variables
+
+    follow envSample file
+  
+5. Configure alembic.ini:
+  
+      Update the sqlalchemy.url in the alembic.ini file to match your DATABASE_URL:
+
+6. Install PostgreSQL if you haven’t already:
+
+7. Create a database named heart_tracker.
+
+8. Run Alembic Migrations
+
+```
+    alembic upgrade head
+```
+7. Run the Application
+Start the FastAPI application using Uvicorn:
+```
+    uvicorn main:app --reload
+```
+
+
 # Database ER Diagram
 
 ![Image](https://github.com/user-attachments/assets/35db4106-3e82-4560-88fb-cacbe56675de)
