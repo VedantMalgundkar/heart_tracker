@@ -2,6 +2,10 @@
 
 This document provides detailed information about the API routes available in the application. Each route is described with its purpose, request format, and example responses.
 
+# Database ER Diagram
+
+![Image](https://github.com/user-attachments/assets/35db4106-3e82-4560-88fb-cacbe56675de)
+
 ## Table of Contents
 
 1. [Register User](#register-user)
