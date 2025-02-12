@@ -1,0 +1,11 @@
+DB_USER = pg_username
+DB_PORT = 5432
+DB_PASSWORD = pg_password
+DB_HOST = pg_host
+DB_NAME = heart_tracker
+
+DATABASE_URL = postgresql://<pg_username>:<pg_password>s@<host>:5432/heart_tracker
+SECRET_KEY = Random_key
+ALGORITHM = HS256
+ACCESS_TOKEN_EXPIRE_MINUTES = 30
+REFRESH_TOKEN_EXPIRE_MINUTES = 1440
